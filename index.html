@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій сайт</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <!-- Навігаційна панель -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Сайт про гриби</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Головна</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contacts.html">Контакти</a> <!-- Видалено btn-primary, щоб не підсвічувалась постійно -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Головний банер -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Любиш ліс та збирати гриби? Тоді тобі до нас</h1>
+        <p class="lead">Ми навчимо збирати гриби, розповімо про все і навчимо.</p>
+        <a class="btn btn-primary btn-lg" href="/more.html" role="button">Дізнатися більше</a>
+    </div>
+
+    <!-- Секція з картками -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="/imege/5311d2f0-6dd4-49a9-90cb-83405d906f94.webp" alt="Зображення 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Збір</h5>
+                        <p class="card-text">Ми відправимося в похід, де будемо збирати гриби, а також приготуємо їх.</p>
+                        <a href="#" class="btn btn-primary">Деталі</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="/imege/yak-ne-otruitisya-gribami.jpg.webp" alt="Зображення 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Навчання для пошуку грибів у лісі</h5>
+                        <p class="card-text">Проведемо уроки, щоб ви точно вміли збирати гриби.</p>
+                        <a href="#" class="btn btn-primary">Деталі</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <img class="card-img-top" src="/imege/kartinki24_ru_muchrooms_55.jpg.webp" alt="Зображення 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Продаж</h5>
+                        <p class="card-text">Продаємо найсвіжіші і найякісніші гриби.</p>
+                        <a href="#" class="btn btn-primary">Деталі</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Підвал сайту -->
+    <footer class="bg-light text-center py-3 mt-4">
+        <p>&copy; 2024 Сайт про гриби. Всі права захищені.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

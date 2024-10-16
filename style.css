@@ -1,0 +1,196 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border-bottom: 2px solid #007bff;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    color: #333 !important; /* Залишаємо звичайний колір для посилань */
+}
+
+.nav-link:hover {
+    background-color: #007bff;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.navbar-nav .nav-item .active {
+    background-color: transparent; /* Забираємо виділення активної кнопки */
+    color: #333 !important; /* Залишаємо звичайний колір тексту */
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: white;
+    padding: 100px 25px;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.jumbotron .btn {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    font-weight: bold;
+    padding: 15px 30px;
+}
+
+.jumbotron .btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.card {
+    margin: 20px 0;
+    border: 1px solid #007bff;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.4rem;
+    color: #007bff;
+}
+
+.card-text {
+    color: #555;
+}
+
+.card .btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body h5 {
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    flex-grow: 1;
+}
+
+.card-body .btn {
+    align-self: flex-start;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-size: 1.1rem;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+button.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+}
+
+.embed-responsive {
+    margin-top: 30px;
+}
+
+.contacts-section {
+    color: #333;
+}
+
+.contacts-section h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.contacts-section ul li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contacts-section a {
+    color: #007bff;
+}
+
+.contacts-section a:hover {
+    color: #0056b3;
+}
